@@ -1,5 +1,7 @@
 package locators;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +15,7 @@ public class Test2 {
 		System.setProperty("webdriver.chrome.driver","./software/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php?controller=order");
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	driver.findElement(By.id("search_query_top")).sendKeys("dress");
 	driver.findElement(By.name("submit_search")).click();
 	driver.findElement(By.xpath("(//a[@title='Printed Summer Dress'])[2]")).click();
@@ -24,7 +27,7 @@ public class Test2 {
 	WebElement ele = driver.findElement(By.xpath("//a[@title='Proceed to checkout']"));
 	//w.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Proceed to checkout']"))).click();
 	w.until(ExpectedConditions.elementToBeClickable(ele)).click();
-	
+	w.until(ExpectedConditions.titleIs("fgghh"));
 	//driver.close();
 	}
 
