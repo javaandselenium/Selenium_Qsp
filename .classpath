@@ -8,5 +8,25 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="software/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="software/commons-io-2.6 (2).jar"/>
+	<classpathentry kind="lib" path="software/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="software/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="software/commons-compress-1.19.jar"/>
+	<classpathentry kind="lib" path="software/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="software/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="software/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="software/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="software/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="software/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="software/jaxb-impl-2.3.2.jar"/>
+	<classpathentry kind="lib" path="software/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="software/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="software/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/poi-examples-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/poi-excelant-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/poi-scratchpad-4.1.2.jar"/>
+	<classpathentry kind="lib" path="software/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="software/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
