@@ -1,5 +1,6 @@
 package popups;
 
+import java.awt.datatransfer.Clipboard;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -14,7 +15,8 @@ public class Test2 {
 		driver.get("https://www.naukri.com/account/register/basicdetails");
 		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//button[@title='I am a Professional']")).click();
-		driver.findElement(By.name("uploadCV")).sendKeys("C:\\Users\\QSP\\Downloads\\ExtentReport.docx");
+	//	driver.findElement(By.name("uploadCV")).sendKeys("C:\\Users\\QSP\\Downloads\\ExtentReport.docx");
+	String filepath="C:\\Users\\QSP\\Downloads\\ExtentReport.docx";
 	
 	}
 
