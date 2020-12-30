@@ -13,7 +13,7 @@ public class Test3 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demo.actitime.com/login.do");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.findElement(By.id("username")).sendKeys("admin");
+		driver.findElement(By.id("username")).sendKeys("admin200");
 		driver.findElement(By.name("pwd")).sendKeys("manager");driver.findElement(By.xpath("//div[text()='Login ']")).click();String actTitle = driver.getTitle();
 		System.out.println(actTitle);
 	    String url = driver.getCurrentUrl();

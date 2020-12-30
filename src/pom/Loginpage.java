@@ -11,7 +11,7 @@ public class Loginpage {
 	
 	@FindBy(name="submit_search")
 	private WebElement goBtn;
-	
+	 
 	Loginpage(WebDriver driver){
 		PageFactory.initElements(driver,this);
 	}
